@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Resol.AvaloniaUI.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1280"
+        x:Class="Resol.AvaloniaUI.Views.MainWindow"
+		xmlns:views="clr-namespace:Resol.AvaloniaUI.Views"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+		Content="{Binding List}"
+
+		
+		
+		WindowStartupLocation="CenterScreen"
+		WindowState="Maximized"
+		HasSystemDecorations="False"
+		Title="Параметры окна выше, чтобы ок отображалось на киоске"
+	>
+	
+	<views:CustomUserView/>
+    <!-- Пропишем стили для элементов -->
+	<Window.Styles>
+        <Style Selector="Button.manage">
+            <Setter Property="Margin" Value="10"></Setter>
+			<Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+        </Style>
+		<Style Selector="Button.block">
+			<Setter Property="Padding" Value="50"></Setter>
+			<Setter Property="VerticalAlignment" Value="Top"></Setter>
+			<Setter Property="HorizontalAlignment" Value="Center"></Setter>
+			<Setter Property="Margin" Value="0"></Setter>
+		</Style>
+    </Window.Styles>
+
+	
+
+
+</Window>

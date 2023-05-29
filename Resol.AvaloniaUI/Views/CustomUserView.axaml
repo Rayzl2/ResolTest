@@ -1,0 +1,27 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="300"
+             x:Class="Resol.AvaloniaUI.Views.CustomUserView"
+			 >
+	
+
+	<!-- Создадим разметку экрана-->
+	<Grid RowDefinitions="*,*">
+		<!--Создадим разметку клавиш -->
+		<Grid Grid.Row="0" RowDefinitions="*" ColumnDefinitions="*,*">
+			<Button Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Classes="manage">+</Button>
+			<Button Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Classes="manage">-</Button>
+		</Grid>
+		<Grid Grid.Row="1" ColumnDefinitions="*, Auto" RowDefinitions="*">
+			<ItemsControl Items="{Binding Items}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Button Grid.Row="1" Grid.Column="0"  Classes="block" Background="Red"/>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</Grid>
+	</Grid>
+</UserControl>

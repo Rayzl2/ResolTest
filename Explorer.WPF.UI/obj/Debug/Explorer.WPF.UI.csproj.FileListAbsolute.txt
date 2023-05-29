@@ -1,0 +1,16 @@
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\bin\Debug\Explorer.WPF.UI.exe.config
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\bin\Debug\Explorer.WPF.UI.exe
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\bin\Debug\Explorer.WPF.UI.pdb
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.csproj.AssemblyReference.cache
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\MainWindow.g.cs
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\App.g.cs
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI_MarkupCompile.cache
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI_MarkupCompile.lref
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\MainWindow.baml
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.g.resources
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.Properties.Resources.resources
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.csproj.GenerateResource.cache
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.csproj.CoreCompileInputs.cache
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.exe
+C:\Users\vadim\source\repos\ResolTest\Explorer.WPF.UI\obj\Debug\Explorer.WPF.UI.pdb
