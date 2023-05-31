@@ -10,12 +10,10 @@ namespace Resol.AvaloniaUI.ViewModels
 {
     public class GeneratingViewModel : ViewModelBase
     {
-        public GeneratingViewModel(IEnumerable<Generating> items)
-        {
+        public GeneratingViewModel(IEnumerable<Generating> items) =>
             Items = new ObservableCollection<Generating>(items);
 
-        }
 
-        public ObservableCollection<Generating> Items { get; set; }
+        public ObservableCollection<Generating> Items { get; }
     }
 }

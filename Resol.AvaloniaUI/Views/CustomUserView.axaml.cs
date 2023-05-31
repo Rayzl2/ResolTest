@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls;
+using Avalonia.Markup.Xaml;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,12 @@ namespace Resol.AvaloniaUI.Views
     public partial class CustomUserView : UserControl
     {
         public CustomUserView() {
-            InitializeComponent();
+            this.InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            AvaloniaXamlLoader.Load(this);
         }
     }
 }

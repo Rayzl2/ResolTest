@@ -9,7 +9,6 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
 		Content="{Binding List}"
-
 		
 		
 		WindowStartupLocation="CenterScreen"

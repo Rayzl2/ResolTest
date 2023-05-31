@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using Avalonia.Markup.Xaml;
 
 namespace Resol.AvaloniaUI.Views
 {
@@ -6,7 +7,12 @@ namespace Resol.AvaloniaUI.Views
     {
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            AvaloniaXamlLoader.Load(this);
         }
 
     }

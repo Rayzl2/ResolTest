@@ -9,17 +9,19 @@ namespace Resol.AvaloniaUI.ViewModels
 {
     class MainWindowViewModel : ViewModelBase
     {
+        public string VARIABLE
+        {
+            get => "1";
+            set => this.VARIABLE = value;
+        }
         public MainWindowViewModel(Database db)
         {
             List = new GeneratingViewModel(db.GetItems());
-
-
         }
+
 
         public GeneratingViewModel List { get; }
 
-
-
-
+    
     }
 }
